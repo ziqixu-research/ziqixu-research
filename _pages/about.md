@@ -21,6 +21,6 @@ My research focuses on developing reliable and deployable AI systems for healthc
 - **Trustworthy and Uncertainty-Aware Machine Learning:** I design methods to quantify uncertainty in both traditional models and large language models. My research introduces modality-specific uncertainty estimation and reliability-aware fusion strategies for safer deployment in clinical decision-making.
 - **Clinical AI and Real-World Impact:** I collaborate with interdisciplinary teams across [Anesthesiology](https://anesthesiology.wustl.edu/), [Neuroscience](https://neuroscience.wustl.edu/), and [Public Health](https://publichealth.washu.edu/). My work spans applications including surgical predictions, treatment effect, disease phenotyping, and global health.
 
-## News
-{: .news-heading}
+<h2 class="news-heading" id="news">News</h2>
+
 {% include news.html %}

@@ -1,82 +1,75 @@
 # News items for the homepage (newest first). Edit body using Markdown.
 
 items:
-  - date: "Dec 2025"
-    icon: "📄"
+  - date: "Jan 2026"
+    icon: "📰"
     body: |
-      My work with Jingwen Zhang (first author), *Addressing Cohort Variability with Adaptive Fusion of Wearable and Clinical Data: A Case Study in Predicting Pancreatic Surgery Outcomes*, has been accepted to ACM Transactions on Computing for Healthcare (HEALTH). This work was also featured in a [press release](https://engineering.wustl.edu/news/2026/Surgical-AI-adapts-to-changing-patients.html).
+      My work with [Dr. Jingwen Zhang](https://sites.google.com/view/jingwenz) (first author), [Addressing Cohort Variability with Adaptive Fusion of Wearable and Clinical Data](https://dl.acm.org/doi/full/10.1145/3788681), has been accepted to ACM Transactions on Computing for Healthcare (HEALTH). This work was also featured in a [press release](https://engineering.wustl.edu/news/2026/Surgical-AI-adapts-to-changing-patients.html).
 
   - date: "Nov 2025"
     icon: "🎓"
     body: |
-      I successfully defended my Ph.D. dissertation proposal.
-
-  - date: "Nov 2025"
-    icon: "📰"
-    body: |
-      Our Chiari paper (co-first author with Dr. Sean Gupta) was featured by WashU Medicine in a [news article](https://medicine.wustl.edu/news/researchers-define-new-subtypes-of-common-brain-disorder/).
+      I successfully defended my Ph.D. dissertation proposal on Trustworthy Multimodal AI for Personalized Healthcare!
 
   - date: "Oct 2025"
     icon: "🎤"
     body: |
-      Presented my work at UbiComp 2025 in Helsinki, Finland.
+      As first author, I presented my work [Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data](https://dl.acm.org/doi/abs/10.1145/3729488) at [UbiComp 2025](https://www.ubicomp.org/ubicomp-iswc-2025/) in Helsinki, Finland.
 
   - date: "Aug 2025"
+    icon: "📰"
+    body: |
+      My work with [Claire Najjuuko](https://www.linkedin.com/in/claire-najjuuko-9131a5377/) (first author), [Patterns of Maternal and Child Health Services Utilization and Associated Socioeconomic Disparities in Sub-Saharan Africa](https://www.nature.com/articles/s41467-025-61350-8), has been accepted to Nature Communications. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Data-science-uncovers-patterns-in-health-service-use-linked-to-child-mortality.html).
+
+  - date: "Jul 2025"
     icon: "📄"
     body: |
-      My work with Claire Najjuuko, *Patterns of Maternal and Child Health Services Utilization and Associated Socioeconomic Disparities in Sub-Saharan Africa*, has been accepted to *Nature Communications*. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Data-science-uncovers-patterns-in-health-service-use-linked-to-child-mortality.html).
+      My work with [Ben Warner](https://benwarner.net/) (first author), [Utilizing Semantic Textual Similarity for Clinical Survey Data Feature Selection](https://aclanthology.org/2025.findings-acl.27/), has been accepted to Findings of ACL 2025 (Vienna, Austria).
+  
 
   - date: "Jun 2025"
-    icon: "📄"
+    icon: "🏆"
     body: |
-      *Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data: A Case Study on Persistent Post-surgical Pain* has been accepted to Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) and will be presented at UbiComp / ISWC 2025 in Helsinki, Finland. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Predicting-pain-with-machine-learning.htm).
-
-  - date: "Jun 2025"
-    icon: "📄"
-    body: |
-      *Using Artificial Intelligence to Identify Three Presenting Phenotypes of Chiari Type-1 Malformation and Syringomyelia* has been accepted to *Neurosurgery*. I contributed as a co-first author.
-
+      In collaboration with [Braxton Goodnight](https://www.linkedin.com/in/braxton-goodnight/), [Dr. Dominic Sanford](https://physicians.wustl.edu/people/dominic-sanford-md/) and [Dr. Chenyang Lu](https://www.cse.wustl.edu/~lu/), our team was selected as a winner of $50k in the [Big Ideas Competition](https://source.washu.edu/2024/07/big-idea-winners-announced/). Our project focuses on leveraging AI and multimodal health data to advance personalized and adaptive clinical decision-making.
+  
   - date: "May 2025"
-    icon: "📄"
+    icon: "📰"
     body: |
-      My work with Ben Warner, *Utilizing Semantic Textual Similarity for Clinical Survey Data Feature Selection*, has been accepted to Findings of ACL 2025 (Vienna, Austria).
+      As first author, [Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data](https://dl.acm.org/doi/abs/10.1145/3729488) has been accepted to Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT). This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Predicting-pain-with-machine-learning.htm).
 
   - date: "Apr 2025"
-    icon: "📄"
+    icon: "📰"
     body: |
-      My work with Claire Najjuuko, *Using Machine Learning to Predict Poor Adherence to Antiretroviral Therapy Among Adolescents Living with HIV in Low-Resource Settings*, has been accepted to *AIDS*. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Machine-learning-could-help-predict-adherence-to-HIV-treatment-in-adolescents.html).
+      My work with [Claire Najjuuko](https://www.linkedin.com/in/claire-najjuuko-9131a5377/) (first author), [Using Machine Learning to Predict Poor Adherence to Antiretroviral Therapy Among Adolescents Living with HIV in Low-Resource Settings](https://journals.lww.com/aidsonline/abstract/2025/07150/using_machine_learning_to_predict_poor_adherence.13.aspx), has been accepted to AIDS. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Machine-learning-could-help-predict-adherence-to-HIV-treatment-in-adolescents.html).
+ 
+  - date: "Nov 2024"
+    icon: "📰"
+    body: |
+      As co-first author in collaboration with [Dr. Sean Gupta](https://neurosurgery.wustl.edu/people/sean-gupta-md/), our paper [Using Artificial Intelligence to Identify Three Presenting Phenotypes of Chiari Type-1 Malformation and Syringomyelia](https://doi.org/10.1093/neuros/nyad143) has been accepted to Neurosurgery. This work was also featured in a [press release](https://medicine.wustl.edu/news/researchers-define-new-subtypes-of-common-brain-disorder/).
 
   - date: "Oct 2024"
     icon: "🎤"
     body: |
-      Presented my work at UbiComp 2024 in Melbourne, Australia.
+      As first author, I presented my work [Predicting Multi-dimensional Surgical Outcomes with Multi-modal Mobile Sensing](https://dl.acm.org/doi/abs/10.1145/3659628) at [UbiComp 2024](https://www.ubicomp.org/ubicomp-iswc-2024/) in Melbourne, Australia.
 
-  - date: "May 2024"
-    icon: "📄"
-    body: |
-      *Predicting Multi-dimensional Surgical Outcomes with Multi-modal Mobile Sensing* has been accepted to Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) and presented at UbiComp / ISWC 2024.
 
   - date: "May 2024"
     icon: "📰"
     body: |
-      As first author, my work was featured in WashU News and [Health IT Analytics](https://www.techtarget.com/healthtechanalytics/news/366589975/Machine-learning-tool-accurately-predicts-spine-surgery-outcomes).
+      As first author, [Predicting Multi-dimensional Surgical Outcomes with Multi-modal Mobile Sensing](https://dl.acm.org/doi/abs/10.1145/3659628) has been accepted to Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT). This work was also featured in [WashU News](https://engineering.wustl.edu/news/2025/Predicting-pain-with-machine-learning.htm) and [Health IT Analytics](https://www.techtarget.com/healthtechanalytics/news/366589975/Machine-learning-tool-accurately-predicts-spine-surgery-outcomes).
+
 
   - date: "Jan 2024"
     icon: "📄"
     body: |
-      *Preoperative Mobile Health Data Improve Predictions of Recovery from Lumbar Spine Surgery* has been accepted to *Neurosurgery* (co-first author).
-
-  - date: "Aug 2023"
-    icon: "📄"
-    body: |
-      My work with Dr. Bing Xue (first author), *Assisting Clinical Decisions for Scarcely Available Treatment via Disentangled Latent Representation*, has been accepted to KDD 2023 and featured by WashU Engineering.
+      As co-first author in collaboration with [Dr. Jacob Greenberg](https://physicians.wustl.edu/people/jacob-greenberg-md-msci/) and [Dr. Madelyn R. Frumkin](https://www.madelynfrumkin.com/), our paper [Preoperative Mobile Health Data Improve Predictions of Recovery from Lumbar Spine Surgery](https://doi.org/10.1093/neuros/nyad143) has been accepted to Neurosurgery.
 
   - date: "Aug 2023"
     icon: "📰"
     body: |
-      Our work was featured in a [press release](https://engineering.wustl.edu/news/2023/Artificial-intelligence-may-assist-decisions-on-which-patients-should-get-critical-life-support.html) on AI-assisted clinical decision-making.
+      My work with [Dr. Xue Bing](https://xuebing1234.github.io/) (first author), [Assisting Clinical Decisions for Scarcely Available Treatment via Disentangled Latent Representation](https://dl.acm.org/doi/10.1145/3580305.3599774), has been accepted to KDD 2023 (Long Beach, CA). This work was also featured in a [press release](https://engineering.wustl.edu/news/2023/Artificial-intelligence-may-assist-decisions-on-which-patients-should-get-critical-life-support.html).
 
   - date: "Aug 2022"
     icon: "🎓"
     body: |
-      Started my Ph.D. at Washington University in St. Louis, advised by Prof. Chenyang Lu.
+      I am excited to start my Ph.D. at Washington University in St. Louis, advised by [Dr. Chenyang Lu](https://www.cse.wustl.edu/~lu/).
