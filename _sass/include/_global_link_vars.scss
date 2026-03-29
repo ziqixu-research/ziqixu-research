@@ -1,0 +1,12 @@
+/* Override theme links: one accent for default / visited / hover / active */
+:root {
+  --global-link-color: #{$accent-pink};
+  --global-link-color-hover: #{$accent-pink};
+  --global-link-color-visited: #{$accent-pink};
+}
+
+html[data-theme="dark"] {
+  --global-link-color: #{$accent-pink};
+  --global-link-color-hover: #{$accent-pink};
+  --global-link-color-visited: #{$accent-pink};
+}

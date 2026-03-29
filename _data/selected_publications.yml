@@ -7,7 +7,6 @@
 
 items:
   - badge: "IMWUT 2025"
-    badge_sub: "UbiComp / ISWC"
     image: 500x300.png
     title: "Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data: A Case Study on Persistent Post-surgical Pain"
     authors: "<u>Ziqi Xu</u>, Jingwen Zhang, Simon Haroutounian, Hanyang Liu, Zihan Cao, Gabrielle Rose Messner, Harutyun B. Alaverdyan, Saivee Ahuja, Rahul Koshy, Joel Hanns, Madelyn Frumkin, Thomas L. Rodebaugh, Chenyang Lu"
@@ -20,7 +19,6 @@ items:
       - { label: "BIB", url: "https://api.crossref.org/works/10.1145/3729488/transform/application/x-bibtex" }
 
   - badge: "IMWUT 2024"
-    badge_sub: "UbiComp / ISWC"
     image: 500x300.png
     title: "Predicting Multi-dimensional Surgical Outcomes with Multi-modal Mobile Sensing: A Case Study with Patients Undergoing Lumbar Spine Surgery"
     authors: "<u>Ziqi Xu</u>, Jingwen Zhang, Jacob Greenberg, Madelyn Frumkin, Saad Javeed, Justin K. Zhang, Braeden Benedict, Kathleen Botterbush, Thomas L. Rodebaugh, Wilson Z. Ray, Chenyang Lu"
@@ -33,7 +31,6 @@ items:
       - { label: "BIB", url: "https://api.crossref.org/works/10.1145/3659628/transform/application/x-bibtex" }
 
   - badge: "Neurosurgery"
-    badge_sub: "2025"
     image: 500x300.png
     title: "Using Artificial Intelligence to Identify Three Presenting Phenotypes of Chiari Type-1 Malformation and Syringomyelia"
     authors: "Vivek Prakash Gupta\\*, <u>Ziqi Xu</u>\\* (equal contribution), Jacob K. Greenberg, Jennifer Mae Strahle, Gabriel Haller, Thanda Meehan, Ashley Roberts, David D. Limbrick Jr., Chenyang Lu"
@@ -44,7 +41,6 @@ items:
       - { label: "BIB", url: "https://api.crossref.org/works/10.1227/neu.0000000000003249/transform/application/x-bibtex" }
 
   - badge: "Neurosurgery"
-    badge_sub: "2024"
     image: 500x300.png
     title: "Preoperative Mobile Health Data Improve Predictions of Recovery From Lumbar Spine Surgery"
     authors: "Jacob K. Greenberg\\*, Madelyn Frumkin\\*, <u>Ziqi Xu</u>\\* (equal contribution), Jingwen Zhang, Saad Javeed, Justin K. Zhang, Braeden Benedict, Kathleen Botterbush, Salim Yakdan, Camilo A. Molina, Brenton H. Pennicooke, Daniel Hafez, John I. Ogunlade, Nicholas Pallotta, Munish C. Gupta, Jacob M. Buchowski, Brian Neuman, Michael Steinmetz, Zoher Ghogawala, Michael P. Kelly, Burel R. Goodin, Jay F. Piccirillo, Thomas L. Rodebaugh, Chenyang Lu, Wilson Z. Ray"
@@ -54,8 +50,7 @@ items:
       - { label: "DOI", url: "https://doi.org/10.1227/neu.0000000000002911" }
       - { label: "BIB", url: "https://api.crossref.org/works/10.1227/neu.0000000000002911/transform/application/x-bibtex" }
 
-  - badge: "Nat. Commun."
-    badge_sub: "2025 · Open Access"
+  - badge: "Nature Communications"
     image: 500x300.png
     title: "Patterns of maternal and child health services utilization and associated socioeconomic disparities in sub-Saharan Africa"
     authors: "Claire Najjuuko, <u>Ziqi Xu</u>, Samuel Kizito, Chenyang Lu, Fred M. Ssewamala"
@@ -67,7 +62,6 @@ items:
       - { label: "BIB", url: "https://api.crossref.org/works/10.1038/s41467-025-61350-8/transform/application/x-bibtex" }
 
   - badge: "ACL 2025"
-    badge_sub: "Findings · Vienna"
     image: 500x300.png
     title: "Utilizing Semantic Textual Similarity for Clinical Survey Data Feature Selection"
     authors: "Benjamin C. Warner, <u>Ziqi Xu</u>, Simon Haroutounian, Thomas Kannampallil, Chenyang Lu"

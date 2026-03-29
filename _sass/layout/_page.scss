@@ -95,6 +95,7 @@
 
   a {
     text-decoration: underline;
+    text-underline-offset: 2px;
 
     &:hover {
       text-decoration: underline;
@@ -148,6 +149,12 @@
 
     a {
       color: #fff;
+
+      &:hover,
+      &:visited,
+      &:active {
+        color: #fff;
+      }
     }
 
     .wrapper {
@@ -209,6 +216,12 @@
   a {
     color: #fff;
     text-decoration: none;
+
+    &:hover,
+    &:visited,
+    &:active {
+      color: #fff;
+    }
   }
 }
 
@@ -293,7 +306,7 @@
 
   &:hover {
     text-decoration: none;
-    color: var(--global-link-color-hover);
+    color: var(--global-link-color);
   }
 }
 

@@ -93,19 +93,9 @@
   line-height: 1.55;
   color: var(--global-text-color);
 
-  /* Accent links (magenta/purple tone like the reference) */
   a {
-    color: #a0207a;
     text-decoration: underline;
     text-underline-offset: 2px;
-
-    &:hover {
-      color: var(--global-link-color-hover);
-    }
-
-    &:visited {
-      color: mix(#000, #a0207a, 12%);
-    }
   }
 
   em,
@@ -141,10 +131,12 @@
   summary {
     cursor: pointer;
     font-weight: 600;
-    color: #a0207a;
+    color: var(--global-link-color);
     user-select: none;
 
-    &:hover {
+    &:hover,
+    &:visited {
+      color: var(--global-link-color);
       text-decoration: underline;
     }
   }

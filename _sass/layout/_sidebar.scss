@@ -215,6 +215,10 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
+
+  a {
+    text-underline-offset: 2px;
+  }
 }
 
 .author__urls-wrapper {
@@ -317,7 +321,9 @@
     font-size: $type-size-5;
     text-decoration: none;
 
-    &:hover {
+    &:hover,
+    &:visited {
+      color: inherit;
       text-decoration: underline;
     }
   }

@@ -15,6 +15,9 @@
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
+    "include/accent_pink",
+    "include/global_link_vars",
+
     "include/mixins",
     "vendor/susy/susy",
 

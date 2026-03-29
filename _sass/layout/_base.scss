@@ -125,6 +125,14 @@ a {
   }
 }
 
+/* Same global link color for default, visited, hover, and active */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--global-link-color);
+}
+
 /* code */
 
 tt, code, kbd, samp, pre {
