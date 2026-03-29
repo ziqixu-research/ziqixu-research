@@ -1,0 +1,22 @@
+{% assign news = site.data.news %}
+{% if news and news.items and news.items.size > 0 %}
+<div class="news-section">
+  <div class="news-scroll">
+    {% for item in news.items %}
+    <article class="news-item">
+      <div class="news-item__date">{{ item.date }}</div>
+      <div class="news-item__body">
+        {% if item.icon %}<span class="news-item__icon" aria-hidden="true">{{ item.icon }}</span>{% endif %}
+        <div class="news-item__text">{{ item.body | markdownify }}</div>
+        {% if item.details %}
+        <details class="news-item__details">
+          <summary>Paper summary</summary>
+          <div class="news-item__details-body">{{ item.details | markdownify }}</div>
+        </details>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

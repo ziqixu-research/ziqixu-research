@@ -50,9 +50,30 @@
 
 .page__content {
 
+  /* Section headings in page body (e.g. Education, Research Interests): rule + air */
+  h1,
   h2 {
-    padding-bottom: 0.5em;
+    margin-top: 2.75rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--global-border-color);
+    font-size: $type-size-4;
+    line-height: 1.35;
+  }
+
+  h1:first-child,
+  h2:first-child {
+    margin-top: 0;
+  }
+
+  ul,
+  ol {
+    margin-top: 0.35em;
+    margin-bottom: 1.35em;
+  }
+
+  li + li {
+    margin-top: 0.45em;
   }
 
   p, li, dl {

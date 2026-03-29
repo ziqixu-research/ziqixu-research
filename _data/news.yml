@@ -1,0 +1,82 @@
+# News items for the homepage (newest first). Edit body using Markdown.
+
+items:
+  - date: "Dec 2025"
+    icon: "📄"
+    body: |
+      My work with Jingwen Zhang (first author), *Addressing Cohort Variability with Adaptive Fusion of Wearable and Clinical Data: A Case Study in Predicting Pancreatic Surgery Outcomes*, has been accepted to ACM Transactions on Computing for Healthcare (HEALTH). This work was also featured in a [press release](https://engineering.wustl.edu/news/2026/Surgical-AI-adapts-to-changing-patients.html).
+
+  - date: "Nov 2025"
+    icon: "🎓"
+    body: |
+      I successfully defended my Ph.D. dissertation proposal.
+
+  - date: "Nov 2025"
+    icon: "📰"
+    body: |
+      Our Chiari paper (co-first author with Dr. Sean Gupta) was featured by WashU Medicine in a [news article](https://medicine.wustl.edu/news/researchers-define-new-subtypes-of-common-brain-disorder/).
+
+  - date: "Oct 2025"
+    icon: "🎤"
+    body: |
+      Presented my work at UbiComp 2025 in Helsinki, Finland.
+
+  - date: "Aug 2025"
+    icon: "📄"
+    body: |
+      My work with Claire Najjuuko, *Patterns of Maternal and Child Health Services Utilization and Associated Socioeconomic Disparities in Sub-Saharan Africa*, has been accepted to *Nature Communications*. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Data-science-uncovers-patterns-in-health-service-use-linked-to-child-mortality.html).
+
+  - date: "Jun 2025"
+    icon: "📄"
+    body: |
+      *Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data: A Case Study on Persistent Post-surgical Pain* has been accepted to Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) and will be presented at UbiComp / ISWC 2025 in Helsinki, Finland. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Predicting-pain-with-machine-learning.htm).
+
+  - date: "Jun 2025"
+    icon: "📄"
+    body: |
+      *Using Artificial Intelligence to Identify Three Presenting Phenotypes of Chiari Type-1 Malformation and Syringomyelia* has been accepted to *Neurosurgery*. I contributed as a co-first author.
+
+  - date: "May 2025"
+    icon: "📄"
+    body: |
+      My work with Ben Warner, *Utilizing Semantic Textual Similarity for Clinical Survey Data Feature Selection*, has been accepted to Findings of ACL 2025 (Vienna, Austria).
+
+  - date: "Apr 2025"
+    icon: "📄"
+    body: |
+      My work with Claire Najjuuko, *Using Machine Learning to Predict Poor Adherence to Antiretroviral Therapy Among Adolescents Living with HIV in Low-Resource Settings*, has been accepted to *AIDS*. This work was also featured in a [press release](https://engineering.wustl.edu/news/2025/Machine-learning-could-help-predict-adherence-to-HIV-treatment-in-adolescents.html).
+
+  - date: "Oct 2024"
+    icon: "🎤"
+    body: |
+      Presented my work at UbiComp 2024 in Melbourne, Australia.
+
+  - date: "May 2024"
+    icon: "📄"
+    body: |
+      *Predicting Multi-dimensional Surgical Outcomes with Multi-modal Mobile Sensing* has been accepted to Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) and presented at UbiComp / ISWC 2024.
+
+  - date: "May 2024"
+    icon: "📰"
+    body: |
+      As first author, my work was featured in WashU News and [Health IT Analytics](https://www.techtarget.com/healthtechanalytics/news/366589975/Machine-learning-tool-accurately-predicts-spine-surgery-outcomes).
+
+  - date: "Jan 2024"
+    icon: "📄"
+    body: |
+      *Preoperative Mobile Health Data Improve Predictions of Recovery from Lumbar Spine Surgery* has been accepted to *Neurosurgery* (co-first author).
+
+  - date: "Aug 2023"
+    icon: "📄"
+    body: |
+      My work with Dr. Bing Xue (first author), *Assisting Clinical Decisions for Scarcely Available Treatment via Disentangled Latent Representation*, has been accepted to KDD 2023 and featured by WashU Engineering.
+
+  - date: "Aug 2023"
+    icon: "📰"
+    body: |
+      Our work was featured in a [press release](https://engineering.wustl.edu/news/2023/Artificial-intelligence-may-assist-decisions-on-which-patients-should-get-critical-life-support.html) on AI-assisted clinical decision-making.
+
+  - date: "Aug 2022"
+    icon: "🎓"
+    body: |
+      Started my Ph.D. at Washington University in St. Louis, advised by Prof. Chenyang Lu.
