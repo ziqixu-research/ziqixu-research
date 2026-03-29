@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Ruby 3.4+ / 4.x: stdlib gems must be declared for Bundler (e.g. csv, bigdecimal)
+gem 'csv'
+gem 'bigdecimal'
+
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'jekyll-feed'
