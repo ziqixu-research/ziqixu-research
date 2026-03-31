@@ -25,8 +25,9 @@
   background: transparent !important;
   background-color: transparent !important;
 
-  max-height: min(24rem, 52vh);
-  min-height: 10rem;
+  /* Match selected publications panel height on the homepage */
+  max-height: min(72rem, 156vh);
+  min-height: 30rem;
   overflow-y: auto;
   overflow-x: hidden;
   overscroll-behavior: contain;
@@ -151,7 +152,7 @@
 /* Stack on narrow screens: date row, then body */
 @include breakpoint(max-width $medium) {
   .page__content .news-scroll {
-    max-height: min(28rem, 55vh);
+    max-height: min(84rem, 165vh);
   }
 
   .news-item {

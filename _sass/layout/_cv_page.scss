@@ -1,0 +1,41 @@
+/* /cv/: PDF embed + action buttons */
+
+.cv-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0 0 1rem;
+}
+
+.cv-page__hint {
+  margin: 0 0 0.75rem;
+  font-size: $type-size-6;
+  line-height: 1.45;
+  color: var(--global-text-color-light);
+}
+
+.cv-page__embed-wrap {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 2rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--global-border-color);
+}
+
+.cv-page__embed {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  min-height: 32rem;
+  border: 0;
+  background: var(--global-bg-color);
+}
+
+@include breakpoint(max-width $medium) {
+  .cv-page__embed {
+    height: 70vh;
+    min-height: 24rem;
+  }
+}

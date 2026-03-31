@@ -25,6 +25,6 @@ My research focuses on developing reliable and deployable AI systems for healthc
 
 {% include news.html %}
 
-<h2 class="selected-pubs-heading" id="selected-publications">Selected publications</h2>
+<h2 class="selected-pubs-heading" id="selected-projects">Selected projects</h2>
 
 {% include selected_publications.html %}

@@ -13,12 +13,16 @@
           {% endif %}
         </div>
         {% if item.image %}
-        <div class="sel-pub__thumb-wrap">
-          {% if item.image contains "://" %}
-          <img class="sel-pub__thumb" src="{{ item.image }}" alt="" loading="lazy" width="108" height="108" />
-          {% else %}
-          <img class="sel-pub__thumb" src="{{ item.image | prepend: '/images/' | prepend: base_path }}" alt="" loading="lazy" width="108" height="108" />
-          {% endif %}
+        {% if item.image contains "://" %}
+          {% assign img_full = item.image %}
+        {% else %}
+          {% assign img_full = item.image | prepend: '/images/' | prepend: base_path %}
+        {% endif %}
+        {% assign img_alt = item.title | strip | markdownify | strip_html | strip %}
+        <div class="sel-pub__thumb-wrap{% if item.image_contain %} sel-pub__thumb-wrap--contain{% endif %}">
+          <button type="button" class="sel-pub__thumb-trigger" data-sel-pub-lightbox-src="{{ img_full | escape }}" data-sel-pub-lightbox-alt="{{ img_alt | escape }}"{% if item.image_contain %} data-sel-pub-lightbox-contain="1"{% endif %} aria-haspopup="dialog" aria-label="View larger publication figure">
+            <img class="sel-pub__thumb" src="{{ img_full }}" alt="" loading="lazy" width="160" height="160" />
+          </button>
         </div>
         {% endif %}
       </div>
@@ -53,5 +57,66 @@
     </article>
     {% endfor %}
   </div>
+  <div class="sel-pub-lightbox" id="sel-pub-lightbox-root" hidden aria-modal="true" role="dialog" aria-label="Publication figure">
+    <button type="button" class="sel-pub-lightbox__backdrop" aria-label="Close enlarged figure"></button>
+    <div class="sel-pub-lightbox__panel">
+      <button type="button" class="sel-pub-lightbox__close" aria-label="Close">&times;</button>
+      <img class="sel-pub-lightbox__img" src="" alt="" decoding="async" />
+    </div>
+  </div>
 </div>
+<script>
+(function () {
+  var section = document.querySelector(".selected-pubs-section");
+  var root = document.getElementById("sel-pub-lightbox-root");
+  if (!section || !root) return;
+  var imgEl = root.querySelector(".sel-pub-lightbox__img");
+  var closeBtn = root.querySelector(".sel-pub-lightbox__close");
+  var backdrop = root.querySelector(".sel-pub-lightbox__backdrop");
+  var prevOverflow = "";
+
+  function openModal(src, alt, useContain) {
+    if (!src) return;
+    imgEl.src = src;
+    imgEl.alt = alt || "";
+    if (useContain) {
+      root.classList.add("sel-pub-lightbox--fit-contain");
+    } else {
+      root.classList.remove("sel-pub-lightbox--fit-contain");
+    }
+    root.hidden = false;
+    prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    closeBtn.focus();
+  }
+
+  function closeModal() {
+    root.hidden = true;
+    root.classList.remove("sel-pub-lightbox--fit-contain");
+    imgEl.removeAttribute("src");
+    imgEl.alt = "";
+    document.body.style.overflow = prevOverflow;
+  }
+
+  section.addEventListener("click", function (e) {
+    var trigger = e.target.closest(".sel-pub__thumb-trigger");
+    if (!trigger) return;
+    e.preventDefault();
+    var src = trigger.getAttribute("data-sel-pub-lightbox-src");
+    var alt = trigger.getAttribute("data-sel-pub-lightbox-alt") || "";
+    var useContain = trigger.getAttribute("data-sel-pub-lightbox-contain") === "1";
+    openModal(src, alt, useContain);
+  });
+
+  closeBtn.addEventListener("click", closeModal);
+  backdrop.addEventListener("click", closeModal);
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !root.hidden) {
+      e.preventDefault();
+      closeModal();
+    }
+  });
+})();
+</script>
 {% endif %}
