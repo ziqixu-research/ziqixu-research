@@ -1,4 +1,10 @@
-{% if site.url %}
+{% comment %}
+  Use relative paths in local dev so assets load from the local server.
+  In production (GitHub Pages), use the canonical absolute URL.
+{% endcomment %}
+{% if jekyll.environment == "development" %}
+  {% assign base_path = site.baseurl %}
+{% elsif site.url %}
   {% assign base_path = site.url | append: site.baseurl %}
 {% else %}
   {% assign base_path = site.github.url %}

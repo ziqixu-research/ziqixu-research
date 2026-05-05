@@ -1,63 +1,86 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Ziqi Xu",
+    "email": "ziqixu@wustl.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://ziqixu-research.github.io",
+    "summary": "AI for health care, with a focus on multimodal trustworthy AI for clinical decision support and personalized interventions. My research integrates wearable and mobile sensing data, clinical text, and electronic health records (EHR) to develop uncertainty-aware predictive models of clinical outcomes that enable reliable, transparent, and human-centered decision-making in surgery and perioperative care.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "St. Louis",
       "countryCode": "US",
-      "region": ""
+      "region": "MO"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/"
       },
       {
-        "network": "ORCID",
+        "network": "LinkedIn",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://www.linkedin.com/"
       },
       {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "network": "Homepage",
+        "username": "",
+        "url": "https://ziqixu-research.github.io"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Washington University in St. Louis (AI for Health Institute)",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2022-07-01",
+      "endDate": "",
+      "summary": "Advisor: Prof. Chenyang Lu",
+      "highlights": [
+        "Developed an uncertainty-aware multimodal ML framework to predict persistent post-surgical pain by integrating mobile sensing, ecological momentary assessment (EMA), and structured clinical data; proposed view-specific uncertainty estimation and a global confidence score to improve predictive performance and interpretability for clinical deployment.",
+        "Designed a multitask, multimodal learning framework to predict surgical outcomes (pain interference, physical function, recovery quality) using wearable and EMA time-series data; introduced dynamic task weighting to mitigate negative transfer and improve over single-task and clinical baseline models.",
+        "Built an LLM-based framework for clinical outcome prediction from unstructured notes with uncertainty quantification; incorporated variational inference and ensemble methods to identify low-confidence predictions and support human-in-the-loop decision making; evaluated on MIMIC-IV and real-world clinical notes.",
+        "Developed an unsupervised learning pipeline to identify clinically meaningful phenotypes of Chiari Type I malformation with syringomyelia by combining Laplacian feature selection with expert-curated variables to enable interpretable clustering.",
+        "Contributed to ML models for predicting poor adherence to antiretroviral therapy among adolescents with HIV using a six-year longitudinal dataset; applied unsupervised clustering to identify high-risk populations and inform targeted interventions."
+      ]
+    },
+    {
+      "company": "ORKA Health Technology Co., Ltd",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2021-05-01",
+      "endDate": "2021-07-01",
+      "summary": "Shanghai, China",
+      "highlights": [
+        "Developed a mobile application for smart hearing aids serving 50+ users with clinically verified hearing impairments; implemented core features in Flutter including authentication, mode control, and modular UI.",
+        "Performed A/B testing and user behavior analysis using SQL-based event tracking, informing design improvements and enhancing accessibility and user engagement."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Washington University in St. Louis",
+      "area": "Ph.D. in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "endDate": "May 2027 (Expected)",
+      "gpa": "4.0/4.0",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Washington University in St. Louis",
+      "area": "B.S. in Computer Science and Mathematics (double major)",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "endDate": "May 2022",
+      "gpa": "3.99/4.0",
+      "courses": [
+        "Machine Learning",
+        "Data Mining",
+        "Language Models"
+      ]
     }
   ],
   "skills": [],
@@ -66,87 +89,128 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data: A Case Study on Persistent Post-Surgical Pain",
+      "publisher": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (UbiComp)",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1145/3729488",
+      "summary": "Z. Xu, J. Zhang, S. Haroutounian, H. Liu, Z. Cao, G. R. Messner, H. B. Alaverdyan, S. Ahuja, R. Koshy, J. Hanns, M. Frumkin, T. L. Rodebaugh, C. Lu."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Predicting Multi-Dimensional Surgical Outcomes with Multi-Modal Mobile Sensing",
+      "publisher": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (UbiComp)",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.1145/3659628",
+      "summary": "Z. Xu, J. Zhang, J. Greenberg, M. Frumkin, S. Javeed, J. Zhang, B. Benedict, K. Botterbush, T. L. Rodebaugh, W. Ray, C. Lu."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "CURA: Clinical Uncertainty Risk Alignment for Language Model–Based Risk Prediction",
+      "publisher": "Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "S. Wang, Z. Xu, C. Najjuuko, Y. Wu, C. Alba, C. Lu. Accepted."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Utilizing Semantic Textual Similarity for Clinical Survey Data Feature Selection",
+      "publisher": "Findings of the Association for Computational Linguistics (ACL)",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.18653/v1/2025.findings-acl.27",
+      "summary": "B. C. Warner, Z. Xu, S. Haroutounian, T. Kannampallil, C. Lu."
+    },
+    {
+      "name": "Assisting Clinical Decisions for Scarcely Available Treatment via Disentangled Latent Representation",
+      "publisher": "ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD)",
+      "releaseDate": "2023-01-01",
+      "website": "https://doi.org/10.1145/3580305.3599774",
+      "summary": "B. Xue, A. Said, Z. Xu, H. Liu, N. Shah, H. Yang, P. Payne, C. Lu."
+    },
+    {
+      "name": "Using Artificial Intelligence to Identify Three Presenting Phenotypes of Chiari Type-I Malformation and Syringomyelia",
+      "publisher": "Neurosurgery",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.1227/neu.0000000000003249",
+      "summary": "V. P. Gupta*, Z. Xu* (*equal contribution), J. K. Greenberg, J. M. Strahle, G. Haller, T. Meehan, A. Roberts, D. D. Limbrick Jr., C. Lu."
+    },
+    {
+      "name": "Preoperative Mobile Health Data Improve Predictions of Recovery from Lumbar Spine Surgery",
+      "publisher": "Neurosurgery",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.1227/neu.0000000000002911",
+      "summary": "J. K. Greenberg*, M. Frumkin*, Z. Xu* (*equal contribution), J. Zhang, S. Javeed, J. Zhang, B. Benedict, K. Botterbush, S. Yakdan, C. A. Molina, B. H. Pennicooke, D. Hafez, J. I. Ogunlade, N. Pallotta, M. C. Gupta, J. M. Buchowski, B. Neuman, M. Steinmetz, Z. Ghogawala, M. P. Kelly, B. R. Goodin, J. F. Piccirillo, T. L. Rodebaugh, C. Lu, W. Z. Ray."
+    },
+    {
+      "name": "Patterns of Maternal and Child Health Services Utilization and Associated Socioeconomic Disparities in Sub-Saharan Africa",
+      "publisher": "Nature Communications",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1038/s41467-025-61350-8",
+      "summary": "C. Najjuuko, Z. Xu, S. Kizito, C. Lu, F. M. Ssewamala."
+    },
+    {
+      "name": "Addressing Cohort Variability with Adaptive Fusion of Wearable and Clinical Data: A Case Study in Predicting Pancreatic Surgery Outcomes",
+      "publisher": "ACM Transactions on Computing for Healthcare",
+      "releaseDate": "2026-01-01",
+      "website": "https://doi.org/10.1145/3788681",
+      "summary": "J. Zhang, R. Wang, Z. Xu, H. Liu, J. Rodriguez, H. Cos, R. Srivastava, L. Raper, D. Sanford, C. Hammill, C. Lu."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Leveraging Preoperative Mobile Health Data to Predict 1-Year Recovery Outcomes After Lumbar Spine Surgery",
+      "event": "Neurosurgery (Abstract, Supplement 1)",
+      "date": "2026-01-01",
+      "location": "",
+      "description": "S. Yakdan*, Z. Xu* (*equal contribution), et al. doi: 10.1227/neu.0000000000003964_202"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Minimum Clinically Important Differences in Quantitative Objective Markers of Physical Function in Patients Undergoing Lumbar Spine Surgery",
+      "event": "Neurosurgery (Abstract, Supplement 1)",
+      "date": "2025-01-01",
+      "location": "",
+      "description": "J. Zhang, S. Yakdan, et al. doi: 10.1227/neu.0000000000003360_414"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Machine learning and lumbar spondylolisthesis",
+      "event": "Seminars in Spine Surgery",
+      "date": "2023-01-01",
+      "location": "",
+      "description": "S. Yakdan, K. Botterbush, Z. Xu, C. Lu, W. Z. Ray, J. K. Greenberg. doi: 10.1016/j.semss.2023.101048"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Guest Lecturer, PHS 5100-01: Development, Validation and Application of Risk Prediction Models",
+      "institution": "Washington University in St. Louis",
+      "date": "2026-01-01",
+      "role": "Guest Lecturer",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "CSE 419A: Introduction to AI for Health",
+      "institution": "Washington University in St. Louis",
+      "date": "2024-09-01",
+      "role": "Assistant Instructor",
+      "description": ""
+    },
+    {
+      "course": "CSE 531A: AI for Health",
+      "institution": "Washington University in St. Louis",
+      "date": "2024-01-01",
+      "role": "Assistant Instructor",
+      "description": ""
+    },
+    {
+      "course": "CSE 417: Introduction to Machine Learning",
+      "institution": "Washington University in St. Louis",
+      "date": "2023-01-01",
+      "role": "Teaching Assistant",
+      "description": ""
+    },
+    {
+      "course": "CSE 240: Logic and Discrete Mathematics",
+      "institution": "Washington University in St. Louis",
+      "date": "2020-01-01",
+      "role": "Teaching Assistant",
       "description": ""
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

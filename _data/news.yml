@@ -2,6 +2,11 @@
 
 items:
   - date: "May 2026"
+    icon: "🎤"
+    body: |
+      I was invited to present our work “Using AI to Predict Post-surgical Headache Improvement for Chiari I and Syringomyelia” at the [2026 THINK TANK Meeting](/files/2026-think-tank-agenda-final.pdf) in San Antonio, TX.
+
+  - date: "May 2026"
     icon: "🍎"
     body: |
       I will join Apple as a summer intern in San Diego, working on applied machine learning for display products. I’ll be focusing on leveraging large language models and transformer-based systems to support real-world products.
