@@ -1,6 +1,16 @@
 # News items for the homepage (newest first). Edit body using Markdown.
 
 items:
+  - date: "Aug 2026"
+    icon: "🤝"
+    body: |
+      I am happy to serve as a Graduate Student Advisory Board Member for the WashU Center for Career Engagement (2026–2027).
+
+  - date: "May 2026"
+    icon: "🎤"
+    body: |
+      I was invited to present “Beyond Prediction: Trustworthy Multimodal AI for Pain” at the [#Pain2026 Workshop: Artificial Intelligence and Pain](https://www.eventbrite.com/e/pain2026-workshop-may-15-2026-tickets-1989102455991), hosted by the Gulf Coast Consortia.
+
   - date: "May 2026"
     icon: "🎤"
     body: |
